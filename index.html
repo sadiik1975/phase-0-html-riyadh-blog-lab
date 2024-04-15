@@ -3,16 +3,66 @@
 <head>
   <meta charset="UTF-8">
   <title>Code Challenge 1</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    @keyframes uae-flag-loop {
+      0% {
+        color: #00732F;
+      }
+      33% {
+        color: #FFFFFF;
+      }
+      66% {
+        color: #FF0000;
+      }
+      100% {
+        color: #00732F;
+      }
+    }
+
+    .display-4 {
+      animation: uae-flag-loop 5s linear infinite;
+    }
+  </style>
 </head>
 <body>
-  <div class="wrapper">
-    <!-- HEADER -->
-    <!-- SUB HEAD -->
+  
 
-    <div id="content">
-      <!-- IMAGES, SMALL SUB HEADS, PARAGRAPHS, LINKS -->
-    </div>
-  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+<div class="wrapper">
+  <!-- HEADER -->
+  <header class="text-center my-5">
+    <h1 class="display-4">Welcome to Riyadh</h1>
+    <h2 class="lead">Where A Traditional Past Meets A Modern Future.</h2>
+  </header>
+
+  <!-- CONTENT -->
+  <div id="content">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="./images/transportation/transit.jpg" alt="Modern Transit" class="img-fluid">
+        <h3 class="mt-3">Travel</h3>
+        <p>Once a mudbrick waystation along desert trading routes, Riyadh is now one of the wealthiest cities in the world. The country's political, financial and administrative capital is also a city with a fascinating subtext.</p>
+        <a href="http://www.lonelyplanet.com/saudi-arabia/riyadh" class="btn btn-primary">Link 1</a>
+        <a href="http://en.wikipedia.org/wiki/Riyadh" class="btn btn-secondary">Link 2</a>
+      </div>
+      <div class="col-md-6">
+        <img src="./images/garden.jpg" alt="Riyadh Garden" class="img-fluid">
+        <h3 class="mt-3">History</h3>
+        <p>Riyadh (/rɨˈjɑːd/; Arabic: الرياض‎ ar-Riyāḍ pronounced [arːiˈjɑːdˤ],"The Gardens") is the capital and largest city of Saudi Arabia. It is also the capital of Riyadh Province, and belongs to the historical regions of Najd and Al-Yamama. It is situated in the center of the Arabian Peninsula on a large plateau, and is home to 5,254,560 people, and the urban center of a region with a population of close to 7 million people.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <img src="./images/transportation/camels-in-truck.jpg" alt="The roads of Riyadh" class="img-fluid my-3">
+        <h3 class="mt-3">Sources</h3>
+        <p>The city is divided into 15 municipal districts, managed by Riyadh Municipality headed by the mayor of Riyadh, and the Riyadh Development Authority, chaired by the governor of Riyadh Province, Khalid bin Bandar Al Saud. The current mayor of Riyadh is Abdullah bin Abdul Rahman Al Mogbel, appointed in 2012. Riyadh has the largest all female university in the world, the Princess Nora bint Abdulrahman University. It has been designated as a Beta World City.</p>
+      </div>
+    </div>
+  </div>
+</div>
